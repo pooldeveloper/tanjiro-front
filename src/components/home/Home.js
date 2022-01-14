@@ -91,7 +91,7 @@ const Home = () => {
         <TitleH3>Creada de fans para fans</TitleH3>
         <Link to="/snk-4-2">Ver ahora Shingeki No Kyojin 4 Parte 2!</Link>
       </TitleContainer>
-        <IconTelegram href="https://t.me/+Wk0rxVK_DMpkYjU5">
+        <IconTelegram target="_blank" href="https://t.me/+Wk0rxVK_DMpkYjU5">
           <i className="fab fa-telegram"></i>
           Mas Animes aqui
         </IconTelegram>
