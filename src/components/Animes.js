@@ -50,7 +50,7 @@ const Animes = () => {
             <LinkAnime key={anime.idAnime}>
               <Link to={`/${anime.idAnime}`}>
                 <ImageWidth>
-                  <img alt={`poster de ${anime.name}`} src={`${process.env.REACT_APP_BACKEND_URL}/${anime.poster}`} />
+                  <img alt={`poster de ${anime.name}`} src={`data:image/jpeg;base64,${anime.poster}`} />
                 </ImageWidth>
                 <h3>{anime.name}</h3>
               </Link>

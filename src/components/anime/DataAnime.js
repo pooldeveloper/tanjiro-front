@@ -56,7 +56,7 @@ const DataAnime = () => {
   return (
     <Container>
       <Image>
-        <img alt={`poster de ${anime.name}`} src={`${process.env.REACT_APP_BACKEND_URL}/${anime.poster}`}></img>
+        <img alt={`poster de ${anime.name}`} src={`data:image/jpeg;base64,${anime.poster}`}></img>
       </Image>
       <Overview>
         <TitleH1>{anime.name}</TitleH1>
