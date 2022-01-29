@@ -4,8 +4,8 @@ const FooterContainer = styled.footer`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 10px 0px;
     height: 50px;
-    padding-bottom: 20px;
     position: absolute;
     right: 0px;
     left: 0px;
@@ -17,7 +17,6 @@ const FooterContainer = styled.footer`
     font-weight: 100;
     font-family: 'Open Sans', sans-serif;
     @media (min-width: 750px) {
-        padding-bottom: 20px;
         bottom: 0px;
     }
     & p{

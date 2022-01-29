@@ -69,13 +69,13 @@ const Container = styled.div`
 `;
 const IconTelegram = styled.a`
   position: absolute;
-  bottom: 200px;
+  bottom: 130px;
   right: 0px;
   width: 50px;
   height: 50px;
   text-align: center;
   @media (min-width: 750px) {
-    bottom: 250px;
+    bottom: 70px;
   }
   & i{
     font-size: 50px;
@@ -91,7 +91,7 @@ const Home = () => {
         <TitleH3>Creada de fans para fans</TitleH3>
         <Link to="/snk-4-2">Ver ahora Shingeki No Kyojin 4 Parte 2!</Link>
       </TitleContainer>
-        <IconTelegram target="_blank" href="https://t.me/+Wk0rxVK_DMpkYjU5">
+        <IconTelegram target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBuRGukYsymD6Vum-v3wLW-Xvhcd92FEnLXtqRVOxDwAA9jw/viewform">
           <i className="fab fa-telegram"></i>
           Mas Animes aqui
         </IconTelegram>

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 const ContainerAnimes = styled.div`
   color: var(--white);
+  margin-bottom: 70px;
   & h1{
     text-align: center;
   }
