@@ -67,7 +67,7 @@ const Contact = () => {
         <Title>¿Necesitas una pagina web bonita para tu negocio?</Title>
         <TitleH3>Puedes contactarte por su pagina dando click al icono de abajo :D</TitleH3>
         <Wrap>
-          <a target="_blank" rel="noreferrer" href="https://pooldeveloper.github.io"><i className="fas fa-link"></i></a>
+          <a target="_blank" rel="noreferrer" href="!#"><i className="fas fa-link"></i></a>
         </Wrap>
       </Form>
     </Container>
