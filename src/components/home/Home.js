@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Link } from "react-router-dom";
 import bg from "../../assets/img/bg.jpg"
+import InstallButton from "../layout/InstallButton";
 
 const Title = styled.h1`
   font-size: 25px;
@@ -89,7 +89,7 @@ const Home = () => {
       <TitleContainer>
         <Title>La primera plataforma para ver tus animes favoritos con total comodidad y sin publicidad</Title>
         <TitleH3>Creada de fans para fans</TitleH3>
-        <Link to="/snk-4-2">Ver ahora Shingeki No Kyojin 4 Parte 2!</Link>
+        <InstallButton/>
       </TitleContainer>
         <IconTelegram target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBuRGukYsymD6Vum-v3wLW-Xvhcd92FEnLXtqRVOxDwAA9jw/viewform">
           <i className="fab fa-telegram"></i>
