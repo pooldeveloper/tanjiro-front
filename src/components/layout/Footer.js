@@ -35,6 +35,8 @@ const Footer = () => {
                 <br/>
                 videos libres encontrados en internet
                 <br/>
+                Creado por Pool Nuñez y grupo :D
+                <br/>
                 &copy; 2022 <a href="https://tanjiro.netlify.app/">tanjiro.netlify.app</a>
              </p>
         </FooterContainer>
